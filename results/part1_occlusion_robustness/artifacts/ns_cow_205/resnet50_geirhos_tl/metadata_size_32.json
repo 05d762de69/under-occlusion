@@ -1,0 +1,11 @@
+{
+  "case_id": "ns_cow_205",
+  "model_type": "resnet50_geirhos_tl",
+  "baseline_target_class": 24,
+  "baseline_target_class_name": "fox",
+  "baseline_target_logit": 4.972391128540039,
+  "baseline_confidence": 0.229388028383255,
+  "ground_truth_class_name": "cow",
+  "occluder_size": 32,
+  "stride": 16
+}

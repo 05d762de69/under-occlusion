@@ -1,6 +1,9 @@
 # Data (rsync-only)
 data/
 mats/master_lib.mat
+data
+logs/
+archive/
 
 # Python
 __pycache__/
@@ -14,3 +17,4 @@ env/
 
 # OS
 .DS_Store
+.vscode/
