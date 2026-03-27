@@ -1,0 +1,12 @@
+{
+  "data_path": "/home/hschatzle/data/storage-occ-v2/repos/monte-carlo-selection/results/part1_occlusion_robustness/tables/part1_robustness_long.csv",
+  "n_rows_loaded": 5120,
+  "n_rows_analysis_df": 5120,
+  "n_rows_model_df": 5120,
+  "n_unique_case_id": 40,
+  "fitted_formula": "target_logit_drop ~ model_type * placement_type * num_occluders * occluder_size",
+  "model_converged": true,
+  "statsmodels_version": "0.14.6",
+  "pandas_version": "2.3.3",
+  "numpy_version": "1.26.4"
+}

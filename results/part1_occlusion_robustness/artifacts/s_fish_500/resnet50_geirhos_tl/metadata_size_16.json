@@ -1,0 +1,11 @@
+{
+  "case_id": "s_fish_500",
+  "model_type": "resnet50_geirhos_tl",
+  "baseline_target_class": 31,
+  "baseline_target_class_name": "lobster",
+  "baseline_target_logit": 3.6421830654144287,
+  "baseline_confidence": 0.23240257799625397,
+  "ground_truth_class_name": "fish",
+  "occluder_size": 16,
+  "stride": 8
+}

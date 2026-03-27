@@ -1,0 +1,17 @@
+model_type,placement_type,occluder_size,n,mean_correct_baseline,mean_correct_post_occlusion,mean_prediction_changed
+resnet50_geirhos_tl,random,8,320,0.625,0.56875,0.1625
+resnet50_geirhos_tl,random,16,320,0.625,0.5375,0.25
+resnet50_geirhos_tl,random,32,320,0.625,0.446875,0.39375
+resnet50_geirhos_tl,random,64,320,0.625,0.2125,0.759375
+resnet50_geirhos_tl,targeted,8,320,0.625,0.49375,0.440625
+resnet50_geirhos_tl,targeted,16,320,0.625,0.33125,0.671875
+resnet50_geirhos_tl,targeted,32,320,0.625,0.159375,0.8375
+resnet50_geirhos_tl,targeted,64,320,0.625,0.046875,0.953125
+resnet50_tl_20250829,random,8,320,0.125,0.125,0.0
+resnet50_tl_20250829,random,16,320,0.125,0.125,0.0
+resnet50_tl_20250829,random,32,320,0.125,0.115625,0.059375
+resnet50_tl_20250829,random,64,320,0.125,0.08125,0.26875
+resnet50_tl_20250829,targeted,8,320,0.125,0.125,0.021875
+resnet50_tl_20250829,targeted,16,320,0.125,0.125,0.046875
+resnet50_tl_20250829,targeted,32,320,0.125,0.034375,0.55625
+resnet50_tl_20250829,targeted,64,320,0.125,0.06875,0.378125

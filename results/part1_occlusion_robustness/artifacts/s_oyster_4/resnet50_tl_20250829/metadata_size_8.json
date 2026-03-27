@@ -1,0 +1,11 @@
+{
+  "case_id": "s_oyster_4",
+  "model_type": "resnet50_tl_20250829",
+  "baseline_target_class": 17,
+  "baseline_target_class_name": "dog",
+  "baseline_target_logit": 134.8694610595703,
+  "baseline_confidence": 1.0,
+  "ground_truth_class_name": "oyster",
+  "occluder_size": 8,
+  "stride": 4
+}

@@ -1,0 +1,11 @@
+{
+  "case_id": "ns_lion_801",
+  "model_type": "resnet50_geirhos_tl",
+  "baseline_target_class": 48,
+  "baseline_target_class_name": "tiger",
+  "baseline_target_logit": 7.703544616699219,
+  "baseline_confidence": 0.4988667964935303,
+  "ground_truth_class_name": "lion",
+  "occluder_size": 64,
+  "stride": 32
+}

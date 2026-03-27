@@ -1,0 +1,11 @@
+{
+  "case_id": "ns_dog_780",
+  "model_type": "resnet50_geirhos_tl",
+  "baseline_target_class": 52,
+  "baseline_target_class_name": "wolf",
+  "baseline_target_logit": 6.852804660797119,
+  "baseline_confidence": 0.34636804461479187,
+  "ground_truth_class_name": "dog",
+  "occluder_size": 16,
+  "stride": 8
+}

@@ -1,0 +1,11 @@
+{
+  "case_id": "s_fish_800",
+  "model_type": "resnet50_geirhos_tl",
+  "baseline_target_class": 5,
+  "baseline_target_class_name": "bird",
+  "baseline_target_logit": 3.9435782432556152,
+  "baseline_confidence": 0.27819833159446716,
+  "ground_truth_class_name": "fish",
+  "occluder_size": 8,
+  "stride": 4
+}

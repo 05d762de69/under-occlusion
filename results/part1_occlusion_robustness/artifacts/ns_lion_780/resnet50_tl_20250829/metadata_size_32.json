@@ -1,0 +1,11 @@
+{
+  "case_id": "ns_lion_780",
+  "model_type": "resnet50_tl_20250829",
+  "baseline_target_class": 17,
+  "baseline_target_class_name": "dog",
+  "baseline_target_logit": 148.90719604492188,
+  "baseline_confidence": 1.0,
+  "ground_truth_class_name": "lion",
+  "occluder_size": 32,
+  "stride": 16
+}

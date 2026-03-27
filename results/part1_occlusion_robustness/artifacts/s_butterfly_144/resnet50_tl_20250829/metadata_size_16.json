@@ -1,0 +1,11 @@
+{
+  "case_id": "s_butterfly_144",
+  "model_type": "resnet50_tl_20250829",
+  "baseline_target_class": 17,
+  "baseline_target_class_name": "dog",
+  "baseline_target_logit": 144.30853271484375,
+  "baseline_confidence": 1.0,
+  "ground_truth_class_name": "butterfly",
+  "occluder_size": 16,
+  "stride": 8
+}

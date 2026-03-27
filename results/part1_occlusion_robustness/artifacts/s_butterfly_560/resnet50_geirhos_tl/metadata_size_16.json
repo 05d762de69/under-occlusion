@@ -1,0 +1,11 @@
+{
+  "case_id": "s_butterfly_560",
+  "model_type": "resnet50_geirhos_tl",
+  "baseline_target_class": 8,
+  "baseline_target_class_name": "butterfly",
+  "baseline_target_logit": 5.588201999664307,
+  "baseline_confidence": 0.5113702416419983,
+  "ground_truth_class_name": "butterfly",
+  "occluder_size": 16,
+  "stride": 8
+}

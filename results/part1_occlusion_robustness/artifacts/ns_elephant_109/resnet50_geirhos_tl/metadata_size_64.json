@@ -1,0 +1,11 @@
+{
+  "case_id": "ns_elephant_109",
+  "model_type": "resnet50_geirhos_tl",
+  "baseline_target_class": 21,
+  "baseline_target_class_name": "elephant",
+  "baseline_target_logit": 6.249511241912842,
+  "baseline_confidence": 0.5073603391647339,
+  "ground_truth_class_name": "elephant",
+  "occluder_size": 64,
+  "stride": 32
+}

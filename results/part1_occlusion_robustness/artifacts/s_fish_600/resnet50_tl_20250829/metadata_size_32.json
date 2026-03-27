@@ -1,0 +1,11 @@
+{
+  "case_id": "s_fish_600",
+  "model_type": "resnet50_tl_20250829",
+  "baseline_target_class": 17,
+  "baseline_target_class_name": "dog",
+  "baseline_target_logit": 143.42333984375,
+  "baseline_confidence": 1.0,
+  "ground_truth_class_name": "fish",
+  "occluder_size": 32,
+  "stride": 16
+}

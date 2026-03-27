@@ -1,0 +1,14 @@
+{
+  "analysis": "full_repeated_measures_anova_case_means",
+  "input_rows_analysis_df": 5120,
+  "aggregated_rows": 5120,
+  "expected_cells_per_case": 128,
+  "n_complete_case_id": 40,
+  "n_incomplete_case_id": 0,
+  "within_factors": [
+    "model_type",
+    "placement_type",
+    "num_occluders",
+    "occluder_size"
+  ]
+}

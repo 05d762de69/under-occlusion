@@ -1,0 +1,11 @@
+{
+  "case_id": "s_bird_111",
+  "model_type": "resnet50_geirhos_tl",
+  "baseline_target_class": 5,
+  "baseline_target_class_name": "bird",
+  "baseline_target_logit": 10.546733856201172,
+  "baseline_confidence": 0.6375442147254944,
+  "ground_truth_class_name": "bird",
+  "occluder_size": 32,
+  "stride": 16
+}

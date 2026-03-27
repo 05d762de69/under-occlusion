@@ -1,0 +1,11 @@
+{
+  "case_id": "s_bird_137",
+  "model_type": "resnet50_tl_20250829",
+  "baseline_target_class": 17,
+  "baseline_target_class_name": "dog",
+  "baseline_target_logit": 146.9634246826172,
+  "baseline_confidence": 0.9999979734420776,
+  "ground_truth_class_name": "bird",
+  "occluder_size": 64,
+  "stride": 32
+}

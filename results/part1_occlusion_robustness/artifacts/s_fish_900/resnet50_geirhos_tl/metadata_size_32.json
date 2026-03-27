@@ -1,0 +1,11 @@
+{
+  "case_id": "s_fish_900",
+  "model_type": "resnet50_geirhos_tl",
+  "baseline_target_class": 22,
+  "baseline_target_class_name": "fish",
+  "baseline_target_logit": 4.9638991355896,
+  "baseline_confidence": 0.3299815356731415,
+  "ground_truth_class_name": "fish",
+  "occluder_size": 32,
+  "stride": 16
+}

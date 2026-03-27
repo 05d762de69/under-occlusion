@@ -1,0 +1,11 @@
+{
+  "case_id": "s_oyster_350",
+  "model_type": "resnet50_geirhos_tl",
+  "baseline_target_class": 36,
+  "baseline_target_class_name": "oyster",
+  "baseline_target_logit": 6.025699138641357,
+  "baseline_confidence": 0.4578731656074524,
+  "ground_truth_class_name": "oyster",
+  "occluder_size": 64,
+  "stride": 32
+}
