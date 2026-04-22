@@ -81,7 +81,7 @@ The exact structure may evolve, but the repository is intended to follow a layou
     ├── cases/
     ├── generated/
     └── rating_exports/
-
+```
 
 
 ## Data availability
