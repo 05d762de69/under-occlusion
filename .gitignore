@@ -14,6 +14,7 @@ __pycache__/
 .venv/
 venv/
 env/
+.claude/
 
 # OS
 .DS_Store
