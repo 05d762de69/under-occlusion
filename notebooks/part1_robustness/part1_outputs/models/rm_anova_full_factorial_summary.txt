@@ -1,0 +1,20 @@
+                                         Anova
+=======================================================================================
+                                                       F Value   Num DF  Den DF  Pr > F
+---------------------------------------------------------------------------------------
+model_type                                            5424.6785  1.0000  39.0000 0.0000
+placement_type                                        2083.2849  1.0000  39.0000 0.0000
+num_occluders                                         3631.2554  7.0000 273.0000 0.0000
+occluder_size                                         4756.6857  3.0000 117.0000 0.0000
+model_type:placement_type                              889.7682  1.0000  39.0000 0.0000
+model_type:num_occluders                              2834.3023  7.0000 273.0000 0.0000
+placement_type:num_occluders                           123.4791  7.0000 273.0000 0.0000
+model_type:occluder_size                              3869.4597  3.0000 117.0000 0.0000
+placement_type:occluder_size                           331.8408  3.0000 117.0000 0.0000
+num_occluders:occluder_size                           1725.1691 21.0000 819.0000 0.0000
+model_type:placement_type:num_occluders                105.2975  7.0000 273.0000 0.0000
+model_type:placement_type:occluder_size                328.2494  3.0000 117.0000 0.0000
+model_type:num_occluders:occluder_size                1380.5446 21.0000 819.0000 0.0000
+placement_type:num_occluders:occluder_size              52.3994 21.0000 819.0000 0.0000
+model_type:placement_type:num_occluders:occluder_size   42.8176 21.0000 819.0000 0.0000
+=======================================================================================

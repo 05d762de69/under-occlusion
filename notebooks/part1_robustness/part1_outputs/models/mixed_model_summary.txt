@@ -1,0 +1,48 @@
+Fitted formula:
+target_logit_drop ~ model_type * placement_type * num_occluders * occluder_size
+
+                                                  Mixed Linear Model Regression Results
+==========================================================================================================================================
+Model:                                     MixedLM                          Dependent Variable:                          target_logit_drop
+No. Observations:                          5120                             Method:                                      ML               
+No. Groups:                                40                               Scale:                                       6.4510           
+Min. group size:                           128                              Log-Likelihood:                              -12084.2639      
+Max. group size:                           128                              Converged:                                   Yes              
+Mean group size:                           128.0                                                                                          
+------------------------------------------------------------------------------------------------------------------------------------------
+                                                                                                Coef.  Std.Err.   z    P>|z| [0.025 0.975]
+------------------------------------------------------------------------------------------------------------------------------------------
+Intercept                                                                                       -0.047    0.331 -0.140 0.888 -0.696  0.603
+model_type[T.resnet50_tl_20250829]                                                               0.062    0.443  0.141 0.888 -0.805  0.930
+placement_type[T.targeted]                                                                       0.580    0.443  1.310 0.190 -0.288  1.447
+occluder_size[T.16]                                                                              0.062    0.443  0.141 0.888 -0.805  0.930
+occluder_size[T.32]                                                                             -0.076    0.443 -0.172 0.863 -0.944  0.791
+occluder_size[T.64]                                                                              1.193    0.443  2.695 0.007  0.325  2.060
+model_type[T.resnet50_tl_20250829]:placement_type[T.targeted]                                    0.027    0.626  0.044 0.965 -1.199  1.254
+model_type[T.resnet50_tl_20250829]:occluder_size[T.16]                                          -0.159    0.626 -0.254 0.800 -1.386  1.068
+model_type[T.resnet50_tl_20250829]:occluder_size[T.32]                                          -1.535    0.626 -2.453 0.014 -2.762 -0.309
+model_type[T.resnet50_tl_20250829]:occluder_size[T.64]                                          -6.099    0.626 -9.745 0.000 -7.325 -4.872
+placement_type[T.targeted]:occluder_size[T.16]                                                   0.477    0.626  0.763 0.445 -0.749  1.704
+placement_type[T.targeted]:occluder_size[T.32]                                                   1.444    0.626  2.308 0.021  0.218  2.671
+placement_type[T.targeted]:occluder_size[T.64]                                                   1.824    0.626  2.915 0.004  0.597  3.051
+model_type[T.resnet50_tl_20250829]:placement_type[T.targeted]:occluder_size[T.16]               -0.055    0.885 -0.062 0.950 -1.790  1.680
+model_type[T.resnet50_tl_20250829]:placement_type[T.targeted]:occluder_size[T.32]                2.941    0.885  3.322 0.001  1.206  4.675
+model_type[T.resnet50_tl_20250829]:placement_type[T.targeted]:occluder_size[T.64]                9.867    0.885 11.148 0.000  8.132 11.601
+num_occluders                                                                                    0.010    0.062  0.159 0.874 -0.112  0.131
+model_type[T.resnet50_tl_20250829]:num_occluders                                                 0.151    0.088  1.726 0.084 -0.021  0.323
+placement_type[T.targeted]:num_occluders                                                         0.124    0.088  1.420 0.156 -0.047  0.296
+num_occluders:occluder_size[T.16]                                                                0.024    0.088  0.273 0.785 -0.148  0.196
+num_occluders:occluder_size[T.32]                                                                0.238    0.088  2.720 0.007  0.067  0.410
+num_occluders:occluder_size[T.64]                                                                0.478    0.088  5.453 0.000  0.306  0.650
+model_type[T.resnet50_tl_20250829]:placement_type[T.targeted]:num_occluders                      0.371    0.124  2.993 0.003  0.128  0.614
+model_type[T.resnet50_tl_20250829]:num_occluders:occluder_size[T.16]                             0.430    0.124  3.472 0.001  0.187  0.673
+model_type[T.resnet50_tl_20250829]:num_occluders:occluder_size[T.32]                             2.438    0.124 19.670 0.000  2.195  2.681
+model_type[T.resnet50_tl_20250829]:num_occluders:occluder_size[T.64]                             8.959    0.124 72.288 0.000  8.716  9.202
+placement_type[T.targeted]:num_occluders:occluder_size[T.16]                                     0.089    0.124  0.720 0.471 -0.154  0.332
+placement_type[T.targeted]:num_occluders:occluder_size[T.32]                                     0.048    0.124  0.387 0.699 -0.195  0.291
+placement_type[T.targeted]:num_occluders:occluder_size[T.64]                                    -0.342    0.124 -2.756 0.006 -0.584 -0.099
+model_type[T.resnet50_tl_20250829]:placement_type[T.targeted]:num_occluders:occluder_size[T.16]  0.257    0.175  1.466 0.143 -0.087  0.601
+model_type[T.resnet50_tl_20250829]:placement_type[T.targeted]:num_occluders:occluder_size[T.32]  0.891    0.175  5.085 0.000  0.548  1.235
+model_type[T.resnet50_tl_20250829]:placement_type[T.targeted]:num_occluders:occluder_size[T.64]  0.152    0.175  0.869 0.385 -0.191  0.496
+Group Var                                                                                        0.474    0.046                           
+==========================================================================================================================================

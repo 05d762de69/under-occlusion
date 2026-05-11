@@ -1,0 +1,5 @@
+factor,k_levels,n_subjects,levels,mauchly_W,chi2,df,p_value,sphericity_at_0p05,gg_epsilon,hf_epsilon,lb_epsilon,note
+model_type,2,40,"resnet50_geirhos_tl,resnet50_tl_20250829",,,,,True,1.0,1.0,1.0,sphericity_trivial_k<=2
+placement_type,2,40,"random,targeted",,,,,True,1.0,1.0,1.0,sphericity_trivial_k<=2
+num_occluders,8,40,"1,2,3,4,5,6,7,8",0.006426255543006562,183.98840806833715,27.0,0.0,False,0.3336073165840267,0.3561616760177225,0.14285714285714285,ok
+occluder_size,4,40,"16,32,64,8",0.019703490924450836,148.13363720597047,5.0,0.0,False,0.3936763413373126,0.3987519120073532,0.3333333333333333,ok

@@ -1,0 +1,32 @@
+{
+  "model_type_levels": [
+    "resnet50_geirhos_tl",
+    "resnet50_tl_20250829"
+  ],
+  "placement_type_levels": [
+    "random",
+    "targeted"
+  ],
+  "occluder_size_levels": [
+    8,
+    16,
+    32,
+    64
+  ],
+  "num_occluders_unique": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8
+  ],
+  "n_duplicate_rows": 0,
+  "n_unique_case_id": 40,
+  "shape": [
+    5120,
+    13
+  ]
+}

@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="217.19952pt" height="116.39952pt" viewBox="0 0 217.19952 116.39952" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:date>2026-04-23T03:10:37.448658</dc:date>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Matplotlib v3.10.8, https://matplotlib.org/</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 116.39952 
+L 217.19952 116.39952 
+L 217.19952 0 
+L 0 0 
+L 0 116.39952 
+z
+" style="fill: none"/>
+  </g>
+  <g id="axes_1">
+   <g id="LineCollection_1">
+    <path d="M 13.145433 33.69972 
+L 204.054087 33.69972 
+" clip-path="url(#pe020233664)" style="fill: none; stroke: #888888; stroke-width: 2"/>
+   </g>
+   <g id="LineCollection_2">
+    <path d="M 13.145433 37.99968 
+L 13.145433 29.39976 
+" clip-path="url(#pe020233664)" style="fill: none; stroke: #888888"/>
+   </g>
+   <g id="LineCollection_3">
+    <path d="M 60.872596 37.99968 
+L 60.872596 29.39976 
+" clip-path="url(#pe020233664)" style="fill: none; stroke: #888888"/>
+   </g>
+   <g id="LineCollection_4">
+    <path d="M 108.59976 37.99968 
+L 108.59976 29.39976 
+" clip-path="url(#pe020233664)" style="fill: none; stroke: #888888"/>
+   </g>
+   <g id="LineCollection_5">
+    <path d="M 156.326924 37.99968 
+L 156.326924 29.39976 
+" clip-path="url(#pe020233664)" style="fill: none; stroke: #888888"/>
+   </g>
+   <g id="LineCollection_6">
+    <path d="M 204.054087 37.99968 
+L 204.054087 29.39976 
+" clip-path="url(#pe020233664)" style="fill: none; stroke: #888888"/>
+   </g>
+   <g id="line2d_1">
+    <defs>
+     <path id="me267deb30c" d="M 0 5 
+C 1.326016 5 2.597899 4.473168 3.535534 3.535534 
+C 4.473168 2.597899 5 1.326016 5 0 
+C 5 -1.326016 4.473168 -2.597899 3.535534 -3.535534 
+C 2.597899 -4.473168 1.326016 -5 0 -5 
+C -1.326016 -5 -2.597899 -4.473168 -3.535534 -3.535534 
+C -4.473168 -2.597899 -5 -1.326016 -5 0 
+C -5 1.326016 -4.473168 2.597899 -3.535534 3.535534 
+C -2.597899 4.473168 -1.326016 5 0 5 
+z
+" style="stroke: #ffffff; stroke-width: 1.5"/>
+    </defs>
+    <g clip-path="url(#pe020233664)">
+     <use xlink:href="#me267deb30c" x="131.508799" y="33.69972" style="fill: #3b6ea5; stroke: #ffffff; stroke-width: 1.5"/>
+    </g>
+   </g>
+   <g id="text_1">
+    <text style="font-size: 7px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', sans-serif; text-anchor: start; fill: #555555" x="13.145433" y="51.918506" transform="rotate(-0 13.145433 51.918506)">very implausible</text>
+   </g>
+   <g id="text_2">
+    <text style="font-size: 7px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', sans-serif; text-anchor: end; fill: #555555" x="204.054087" y="51.918506" transform="rotate(-0 204.054087 51.918506)">very plausible</text>
+   </g>
+   <g id="text_3">
+    <text style="font-weight: 700; font-size: 8px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', sans-serif; text-anchor: start" x="13.145433" y="16.98611" transform="rotate(-0 13.145433 16.98611)">How plausible is this completion?</text>
+   </g>
+   <g id="text_4">
+    <text style="font-size: 7px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', sans-serif; text-anchor: start; fill: #555555" x="13.145433" y="10.744139" transform="rotate(-0 13.145433 10.744139)">1</text>
+   </g>
+   <g id="text_5">
+    <text style="font-size: 7px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', sans-serif; text-anchor: end; fill: #555555" x="204.054087" y="10.744139" transform="rotate(-0 204.054087 10.744139)">100</text>
+   </g>
+  </g>
+  <g id="axes_2">
+   <g id="LineCollection_7">
+    <path d="M 13.145433 91.29972 
+L 204.054087 91.29972 
+" clip-path="url(#pd0c3f3b8aa)" style="fill: none; stroke: #888888; stroke-width: 2"/>
+   </g>
+   <g id="LineCollection_8">
+    <path d="M 13.145433 95.59968 
+L 13.145433 86.99976 
+" clip-path="url(#pd0c3f3b8aa)" style="fill: none; stroke: #888888"/>
+   </g>
+   <g id="LineCollection_9">
+    <path d="M 60.872596 95.59968 
+L 60.872596 86.99976 
+" clip-path="url(#pd0c3f3b8aa)" style="fill: none; stroke: #888888"/>
+   </g>
+   <g id="LineCollection_10">
+    <path d="M 108.59976 95.59968 
+L 108.59976 86.99976 
+" clip-path="url(#pd0c3f3b8aa)" style="fill: none; stroke: #888888"/>
+   </g>
+   <g id="LineCollection_11">
+    <path d="M 156.326924 95.59968 
+L 156.326924 86.99976 
+" clip-path="url(#pd0c3f3b8aa)" style="fill: none; stroke: #888888"/>
+   </g>
+   <g id="LineCollection_12">
+    <path d="M 204.054087 95.59968 
+L 204.054087 86.99976 
+" clip-path="url(#pd0c3f3b8aa)" style="fill: none; stroke: #888888"/>
+   </g>
+   <g id="line2d_2">
+    <g clip-path="url(#pd0c3f3b8aa)">
+     <use xlink:href="#me267deb30c" x="131.508799" y="91.29972" style="fill: #3b6ea5; stroke: #ffffff; stroke-width: 1.5"/>
+    </g>
+   </g>
+   <g id="text_6">
+    <text style="font-size: 7px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', sans-serif; text-anchor: start; fill: #555555" x="13.145433" y="109.518506" transform="rotate(-0 13.145433 109.518506)">very simple</text>
+   </g>
+   <g id="text_7">
+    <text style="font-size: 7px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', sans-serif; text-anchor: end; fill: #555555" x="204.054087" y="109.518506" transform="rotate(-0 204.054087 109.518506)">very complex</text>
+   </g>
+   <g id="text_8">
+    <text style="font-weight: 700; font-size: 8px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', sans-serif; text-anchor: start" x="13.145433" y="74.58611" transform="rotate(-0 13.145433 74.58611)">How complex is this completion?</text>
+   </g>
+   <g id="text_9">
+    <text style="font-size: 7px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', sans-serif; text-anchor: start; fill: #555555" x="13.145433" y="68.344139" transform="rotate(-0 13.145433 68.344139)">1</text>
+   </g>
+   <g id="text_10">
+    <text style="font-size: 7px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', sans-serif; text-anchor: end; fill: #555555" x="204.054087" y="68.344139" transform="rotate(-0 204.054087 68.344139)">100</text>
+   </g>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="pe020233664">
+   <rect x="3.6" y="3.6" width="209.99952" height="51.59952"/>
+  </clipPath>
+  <clipPath id="pd0c3f3b8aa">
+   <rect x="3.6" y="61.2" width="209.99952" height="51.59952"/>
+  </clipPath>
+ </defs>
+</svg>

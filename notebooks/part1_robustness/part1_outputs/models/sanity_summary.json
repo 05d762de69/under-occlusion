@@ -1,0 +1,10 @@
+{
+  "n_rows": 5120,
+  "n_case_id": 40,
+  "n_model_type": 2,
+  "n_placement_type": 2,
+  "n_occluder_size": 4,
+  "num_occluders_min": 1.0,
+  "num_occluders_max": 8.0,
+  "target_logit_drop_missing": 0
+}

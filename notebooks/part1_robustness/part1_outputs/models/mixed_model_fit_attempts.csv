@@ -1,0 +1,3 @@
+optimizer,status,converged,info
+lbfgs,failed,,Singular matrix
+bfgs,success,True,-12084.26385560145

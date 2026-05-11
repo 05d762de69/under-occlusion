@@ -1,0 +1,14 @@
+,n_missing
+case_id,0
+model_type,0
+placement_type,0
+num_occluders,0
+occluder_size,0
+target_class,0
+target_class_name,0
+baseline_target_logit,0
+post_occlusion_target_logit,0
+target_logit_drop,0
+is_correct_baseline,0
+is_correct_post_occlusion,0
+prediction_changed,0

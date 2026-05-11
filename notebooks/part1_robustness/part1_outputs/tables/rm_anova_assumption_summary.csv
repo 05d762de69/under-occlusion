@@ -1,0 +1,9 @@
+assumption,summary,verdict,detail_file
+normality_per_cell_shapiro,86/128 cells with p>0.05,violated,rm_anova_assumption_normality_per_cell.csv
+normality_of_residuals,"dagostino_pearson stat=2505.518, p=0, skew=-1.59, kurt=23.83",violated,
+homogeneity_of_variance_levene,"W=30.748, p=0 (k=128)",violated,
+sphericity_model_type,k=2 (sphericity not applicable),met_by_design,rm_anova_assumption_sphericity.csv
+sphericity_placement_type,k=2 (sphericity not applicable),met_by_design,rm_anova_assumption_sphericity.csv
+sphericity_num_occluders,"Mauchly W=0.006, chi2=183.99, df=27, p=0; GG eps=0.334, HF eps=0.356",violated_use_GG_correction,rm_anova_assumption_sphericity.csv
+sphericity_occluder_size,"Mauchly W=0.020, chi2=148.13, df=5, p=0; GG eps=0.394, HF eps=0.399",violated_use_GG_correction,rm_anova_assumption_sphericity.csv
+no_extreme_outliers_abs_z_gt_3,45 / 5120 obs (0.88%) across 14 cases,inspect,rm_anova_assumption_outliers.csv

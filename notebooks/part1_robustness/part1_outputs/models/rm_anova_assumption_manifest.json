@@ -1,0 +1,98 @@
+{
+  "analysis": "rm_anova_assumption_checks",
+  "dataset_rows": 5120,
+  "n_complete_subjects": 40,
+  "within_factor_levels": {
+    "model_type": 2,
+    "placement_type": 2,
+    "num_occluders": 8,
+    "occluder_size": 4
+  },
+  "expected_cells_per_subject": 128,
+  "normality_per_cell": {
+    "test": "shapiro_wilk",
+    "n_cells_total": 128,
+    "n_cells_normal_p_gt_0p05": 86,
+    "n_cells_nonnormal": 42
+  },
+  "normality_residuals": {
+    "test": "dagostino_pearson",
+    "n_residuals": 5120,
+    "statistic": 2505.51790978002,
+    "p_value": 0.0,
+    "normal_at_0p05": false,
+    "residual_skew": -1.5932815413382269,
+    "residual_kurtosis": 23.827770762640462
+  },
+  "homogeneity_levene": {
+    "test": "levene_brown_forsythe_median",
+    "n_groups": 128,
+    "statistic": 30.747936064755432,
+    "p_value": 0.0,
+    "homogeneous_at_0p05": false
+  },
+  "sphericity": {
+    "model_type": {
+      "k_levels": 2,
+      "n_subjects": 40,
+      "levels": "resnet50_geirhos_tl,resnet50_tl_20250829",
+      "mauchly_W": NaN,
+      "chi2": NaN,
+      "df": NaN,
+      "p_value": NaN,
+      "sphericity_at_0p05": true,
+      "gg_epsilon": 1.0,
+      "hf_epsilon": 1.0,
+      "lb_epsilon": 1.0,
+      "note": "sphericity_trivial_k<=2"
+    },
+    "placement_type": {
+      "k_levels": 2,
+      "n_subjects": 40,
+      "levels": "random,targeted",
+      "mauchly_W": NaN,
+      "chi2": NaN,
+      "df": NaN,
+      "p_value": NaN,
+      "sphericity_at_0p05": true,
+      "gg_epsilon": 1.0,
+      "hf_epsilon": 1.0,
+      "lb_epsilon": 1.0,
+      "note": "sphericity_trivial_k<=2"
+    },
+    "num_occluders": {
+      "k_levels": 8,
+      "n_subjects": 40,
+      "levels": "1,2,3,4,5,6,7,8",
+      "mauchly_W": 0.006426255543006562,
+      "chi2": 183.98840806833715,
+      "df": 27.0,
+      "p_value": 0.0,
+      "sphericity_at_0p05": false,
+      "gg_epsilon": 0.3336073165840267,
+      "hf_epsilon": 0.3561616760177225,
+      "lb_epsilon": 0.14285714285714285,
+      "note": "ok"
+    },
+    "occluder_size": {
+      "k_levels": 4,
+      "n_subjects": 40,
+      "levels": "16,32,64,8",
+      "mauchly_W": 0.019703490924450836,
+      "chi2": 148.13363720597047,
+      "df": 5.0,
+      "p_value": 0.0,
+      "sphericity_at_0p05": false,
+      "gg_epsilon": 0.3936763413373126,
+      "hf_epsilon": 0.3987519120073532,
+      "lb_epsilon": 0.3333333333333333,
+      "note": "ok"
+    }
+  },
+  "outliers": {
+    "n_observations": 5120,
+    "n_outliers_abs_z_gt_3": 45,
+    "pct_outliers": 0.87890625,
+    "n_cases_with_any_outlier": 14
+  }
+}
