@@ -1,0 +1,74 @@
+{
+  "analysis": "part2_rm_anova_assumption_checks",
+  "depvar": "debiased_entropy",
+  "subject": "case_id",
+  "within_factors": [
+    "model_type",
+    "occluder_size"
+  ],
+  "dataset_rows": 312,
+  "n_complete_subjects": 39,
+  "within_factor_levels": {
+    "model_type": 2,
+    "occluder_size": 4
+  },
+  "expected_cells_per_subject": 8,
+  "normality_per_cell": {
+    "test": "shapiro_wilk",
+    "n_cells_total": 8,
+    "n_cells_normal_p_gt_0p05": 0,
+    "n_cells_nonnormal": 8
+  },
+  "normality_residuals": {
+    "test": "shapiro_wilk",
+    "n_residuals": 312,
+    "statistic": 0.5833082635253237,
+    "p_value": 1.05652226560928e-26,
+    "normal_at_0p05": false,
+    "residual_skew": -4.4420156899038155,
+    "residual_kurtosis": 28.12356298121644
+  },
+  "homogeneity_levene": {
+    "test": "levene_brown_forsythe_median",
+    "n_groups": 8,
+    "statistic": 0.7482780354389302,
+    "p_value": 0.631202639917982,
+    "homogeneous_at_0p05": true
+  },
+  "sphericity": {
+    "model_type": {
+      "k_levels": 2,
+      "n_subjects": 39,
+      "levels": "shape_biased,texture_biased",
+      "mauchly_W": NaN,
+      "chi2": NaN,
+      "df": NaN,
+      "p_value": NaN,
+      "sphericity_at_0p05": true,
+      "gg_epsilon": 1.0,
+      "hf_epsilon": 1.0,
+      "lb_epsilon": 1.0,
+      "note": "sphericity_trivial_k<=2"
+    },
+    "occluder_size": {
+      "k_levels": 4,
+      "n_subjects": 39,
+      "levels": "16,32,64,8",
+      "mauchly_W": 0.7822260904393565,
+      "chi2": 9.019398688423033,
+      "df": 5.0,
+      "p_value": 0.10829290665890756,
+      "sphericity_at_0p05": true,
+      "gg_epsilon": 0.8537471296783115,
+      "hf_epsilon": 0.920728396527175,
+      "lb_epsilon": 0.3333333333333333,
+      "note": "ok"
+    }
+  },
+  "outliers": {
+    "n_observations": 312,
+    "n_outliers_abs_z_gt_3": 9,
+    "pct_outliers": 2.8846153846153846,
+    "n_cases_with_any_outlier": 7
+  }
+}
